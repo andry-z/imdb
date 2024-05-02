@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>API</title>
+		<link
+			rel="stylesheet"
+			href="static/css/main.css" />
+	</head>
+	<body>
+		<div class="searchbars">
+			<form
+				action="api.php/movies"
+				method="get">
+				<label for="titolo">Titolo</label>
+				<input
+					type="text"
+					name="titolo" />
+				<input type="submit" />
+			</form>
+
+			<form
+				action="api.php/actors"
+				method="get">
+				<label for="submit">Attori</label>
+				<input
+					type="text"
+					name="attore" />
+				<input type="submit" />
+			</form>
+
+			<form
+				action="api.php/genres"
+				method="get">
+				<label for="genere">Genere</label>
+				<input
+					type="text"
+					name="genere" />
+				<input type="submit" />
+			</form>
+
+			<form
+				action="api.php/directors"
+				method="get">
+				<label for="regista">Regista</label>
+				<input
+					type="text"
+					name="regista" />
+				<input type="submit" />
+			</form>
+		</div>
+	</body>
+</html>
